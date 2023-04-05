@@ -1,29 +1,44 @@
 Quick DBD outline for ERD Sketch
 
-Customers
+Departments
 ---------
-customer_id
-first_name
-last_name
-email
-phone
+Marketing 
+Finance 
+Human Resources 
+Production 
+Development 
+Quality Management 
+Sales 
+Research 
+Customer Service 
 
-Orders
+"Department Employees"
 ------
-order_id
-customer_id
-order_date
-total_price
+emp_no
+dep_no
 
-Products
+"Department Manager"
 --------
-product_id
-product_name
-product_description
-product_price
+dep_no
+emp_no
 
-Order_Items
+Employees
 -----------
-order_id
-product_id
-quantity
+emp_no 
+emp_title_id
+birth_date
+first_name
+last_lame 
+sex 
+hire_date 
+
+Salaries
+--------
+emp_no
+salary
+
+Titles 
+--------
+title_id
+title
+
